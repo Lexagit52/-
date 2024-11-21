@@ -1,0 +1,310 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eae6ec;
+}
+
+.slide {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.slide.active {
+    display: block;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для таблицы */
+.table-container {
+    margin: 20px auto;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.periodic-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.periodic-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.alkali {
+    background-color: #ffcccb;
+}
+
+.alkaline {
+    background-color: #add8e6;
+}
+
+.transition {
+    background-color: #90ee90;
+}
+
+.nonmetals {
+    background-color: #ffebcd;
+}
+
+.metalloids {
+    background-color: #d3d3d3;
+}
+
+.lanthanide,
+.actinide {
+    background-color: #ffe4b5;
+}
+/* Основной стиль для слайдов */
+.slide {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Рамки для каждого слайда с разными оттенками цветов */
+#slide1 {
+    border: 3px solid #FF6347; /* Красный */
+    background-color: #FFE4E1; /* Светлый красный */
+}
+
+#slide2 {
+    border: 3px solid #32CD32; /* Лаймовый */
+    background-color: #F0FFF0; /* Светлый зеленый */
+}
+
+#slide3 {
+    border: 3px solid #1E90FF; /* Синий */
+    background-color: #E0FFFF; /* Светлый голубой */
+}
+
+#slide4 {
+    border: 3px solid #FFD700; /* Золотой */
+    background-color: #FFF8DC; /* Светлый желтый */
+}
+
+#slide5 {
+    border: 3px solid #FF4500; /* Оранжевый */
+    background-color: #FFE4B5; /* Светлый оранжевый */
+}
+
+#slide6 {
+    border: 3px solid #8A2BE2; /* Синий фиолетовый */
+    background-color: #E6E6FA; /* Лавандовый */
+}
+
+#slide7 {
+    border: 3px solid #20B2AA; /* Темно-бирюзовый */
+    background-color: #E0FFFF; /* Светлый голубой */
+}
+
+#slide8 {
+    border: 3px solid #FF1493; /* Ярко-розовый */
+    background-color: #FFF0F5; /* Лаванда */
+}
+
+#slide9 {
+    border: 3px solid #3CB371; /* Средний зеленый */
+    background-color: #F0FFF0; /* Светлый зеленый */
+}
+
+#slide10 {
+    border: 3px solid #8B4513; /* Синий-коричневый */
+    background-color: #FFF5EE; /* Слоновая кость */
+}
+
+#slide11 {
+    border: 3px solid #4682B4; /* Стальной синий */
+    background-color: #E6F7FF; /* Очень светлый голубой */
+}
+
+#slide12 {
+    border: 3px solid #D2691E; /* Шоколадный */
+    background-color: #FAEBD7; /* Античный белый */
+}
+
+#slide13 {
+    border: 3px solid #A52A2A; /* Коричневый */
+    background-color: #F5F5DC; /* Бежевый */
+}
+
+#slide14 {
+    border: 3px solid #2F4F4F; /* Темно-серый */
+    background-color: #F0FFFF; /* Светлый голубой */
+}
+
+#slide15 {
+    border: 3px solid #C71585; /* Темно-розовый */
+    background-color: #FFF0F5; /* Лаванда */
+}
+
+/* Стили кнопок */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Основной стиль для body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f9fc; /* Светлый фон для презентации */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стиль для слайдов */
+.slide {
+    display: none; /* Сначала все слайды скрыты */
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для заголовков */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2a7f62; /* Зеленый для химии */
+}
+
+/* Стиль для кнопок */
+button {
+    background-color: #4CAF50; /* Зеленый цвет */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #45a049; /* Немного темнее при наведении */
+}
+
+/* Добавление изображения к слайдам */
+.slide img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Стиль для таблицы */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+td.group {
+    background-color: #f0f8ff;
+}
+
+/* Стиль для слайдов с химическими формулами */
+.chemical-formula {
+    font-family: 'Courier New', monospace;
+    font-size: 1.5rem;
+    color: #2a7f62;
+}
+
+/* Стили для отдельных разделов с текстами */
+ul {
+    text-align: left;
+    list-style: inside;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+#slide9 .molecule-img {
+    max-width: 35%; /* Уменьшаем размер изображения до 50% от ширины контейнера */
+    height: auto;   /* Сохраняем пропорции изображения */
+    margin-top: 20px;
+}
+/* Стиль для изображения на 8-м и 9-м слайде */
+.molecule-img {
+    max-width: 60%;  /* Уменьшаем изображение до 60% от доступной ширины */
+    height: auto;    /* Сохраняем пропорции изображения */
+    margin-top: 20px;  /* Отступ сверху */
+    display: block;     /* Для правильного выравнивания */
+    margin-left: auto;  /* Выравнивание по центру */
+    margin-right: auto; /* Выравнивание по центру */
+}
+/* Стиль для контейнера изображения */
+.img-container {
+    text-align: center;  /* Центрируем изображение в контейнере */
+    margin-top: 20px;    /* Отступ сверху */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стиль для изображения на 8-м слайде */
+.molecule-img {
+    max-width: 60%;  /* Уменьшаем изображение до 60% от доступной ширины */
+    height: auto;    /* Сохраняем пропорции изображения */
+    display: block;  /* Для правильного выравнивания */
+    margin-left: auto;  /* Центрирование картинки по горизонтали */
+    margin-right: auto; /* Центрирование картинки по горизонтали */
+}
